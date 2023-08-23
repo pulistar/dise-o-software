@@ -1,0 +1,7 @@
+package herencia3;
+
+public class Circle extends Shape {
+	
+	
+
+}
