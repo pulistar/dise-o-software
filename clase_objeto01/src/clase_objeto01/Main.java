@@ -6,6 +6,9 @@ public class Main {
 		
 		Employee employeuno = new Employee (821112, "Camilo", "Pulistar", 3788780 );
 		
+		
+		
+		
 		System.out.println("Primer empleado:");
 		System.out.println("Nombre y apellido: " + employeuno.getName());
 		System.out.println("ID: " + employeuno.getId());

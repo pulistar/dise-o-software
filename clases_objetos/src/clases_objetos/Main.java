@@ -3,9 +3,11 @@ package clases_objetos;
 import java.util.Scanner;
 public class Main  {
 	
+	private static Scanner teclado;
+
 	public static void main(String[]args) {
 		
-		Scanner teclado = new Scanner(System.in);
+		teclado = new Scanner(System.in);
 		
 		Circle circleuno = new Circle();
 		
@@ -18,7 +20,6 @@ public class Main  {
 		
 		System.out.println("El area es: " + circleuno.getArea());
 		System.out.println("la circuferencia es: " + circleuno.getCircumference());
-		
 		
 		
 	}
